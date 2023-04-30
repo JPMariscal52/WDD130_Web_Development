@@ -29,6 +29,7 @@ aside {
     padding: 1em;
     background-color: azure;
     color: rgb(41, 128, 243);
+    text-align: center;
 }
 aside img {
     width: 200px;
