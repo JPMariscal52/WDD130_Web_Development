@@ -17,7 +17,7 @@ h2 {
 
 .herodiv {
 	margin: 10px auto;
-	position:; /* I removed this declaration */
+	 /* I removed this declaration */
 }
 
 .herodiv img {
@@ -44,7 +44,7 @@ h3 {
 }
 
 footer {
-	position:;
+	
 	bottom: 0;
 	margin: 1rem;
 	border-top: 1px solid #000;
