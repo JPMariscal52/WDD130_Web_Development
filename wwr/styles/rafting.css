@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+:root {
+    --primary-color: #03045E;
+    --secondary-color: #0077B6;
+    --accent1-color: #EEEE09;
+    --accent2-color: #4EE6A9;
+
+    --heading-font: 'Roboto', serif;
+    --paragraph-font: 'Ubuntu', serif;
+    
+    --nav-background-color: #7cebbe;
+    --nav-link-color: #3e5ee9;
+    --nav-hover-link-color: #57df84;
+    --nav-hover-background-color: #d1ddd8;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+h1, article {
+    position: absolute;
+}
+
+a {
+    text-decoration: none;
+}
