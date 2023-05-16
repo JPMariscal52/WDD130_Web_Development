@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
 
+
+
 :root {
     --primary-color: #03045E;
     --secondary-color: #0077B6;
@@ -19,6 +21,8 @@ body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
+    align-items: center;
+    margin: auto;
 }
 
 h1, h2 {
@@ -36,11 +40,82 @@ h1, h2 {
     height: auto;
 }
 
+article img {
+    height: auto;
+    width: auto;
+    max-height: 100px;
+    max-width: 100px;
+    float: right;
+}
 
-h1, article {
+h1 {
     position: absolute;
+    top: 20px;
+    left: 350px;
+}
+
+h2 {
+    text-align: center;
+}
+
+article {
+    position: absolute;
+    top: 170px;
 }
 
 a {
     text-decoration: none;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+}
+
+.box {
+    margin: 1rem;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    color: #000;
+    background-color: aliceblue;
+}
+
+
+footer nav{
+    position: relative;
+    float: right;
+}
+
+footer {
+    text-align: center;
+}
+
+
+.adventure img{
+    height: auto;
+    width: auto;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.grid {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+}
+
+.flex {
+    display: flex;
+    list-style: none;
+    text-align: right;
+    margin: 0 0.5px;
+}
+
+.flex a{
+    text-align: center;
 }
