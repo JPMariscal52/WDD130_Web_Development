@@ -119,3 +119,21 @@ footer {
 .flex a{
     text-align: center;
 }
+
+.titulo {
+    text-align: center; 
+  margin-top: 200px; 
+  margin-bottom: 10px;
+  font-size: 35px; 
+}
+
+.home {
+    width: auto;
+}
+
+.t_home {
+    text-align: center; 
+  margin-top: 200px; 
+  margin-bottom: 10px;
+  font-size: 35px;
+}
